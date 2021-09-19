@@ -63,9 +63,7 @@ public class FileOperation {
 				System.out.println("File already exists\n");
 		} catch (IOException e) {
 			e.printStackTrace();
-		} finally {
-		}
-		
+		} 
 	}
 	
 	public static void deleteFile(String deleteName) {
